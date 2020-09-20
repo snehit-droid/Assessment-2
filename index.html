@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar1">
+        <label><b>Assessment-2</b></label>
+        <ul>
+            <li><button type="button1"><a href="page-2.html">question-2</a></button></li>
+            <li><button type="button1"><a href="page-3.html">question-3</a></button></li>
+        </ul>
+    </div>
+<div class="container"> 
+    <form id="theform" method="POST" onsubmit="validatetextbox();">
+        <div class="row">
+            <label for="name" >Full Name:</label>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;<input type="text" id="name" name="row-1" placeholder="Full Name:">
+        </div>
+        <div class="row">
+            <label for="address-1" >Address Line 1</label>
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp;<input type="text" id="address-1" name="row-2" placeholder="Address Line 1">
+        </div>
+        <div class="row">
+            <label for="address-2" >Address Line 2</label>
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp;<input type="text" id="address-2" name="row-3" placeholder="Address Line 2">
+        </div>
+        <div class="row">
+            <label for="city" >City</label>
+            <i class="fa fa-building" aria-hidden="true"></i>&nbsp;<input type="text" id="city" name="row-4" placeholder="City">
+        </div>
+        <div class="row">
+            <label for="state" >State/Province/Region</label>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;<input type="text" id="state" name="row-5" placeholder="State/Province/Region">
+        </div>
+        <div class="row">
+            <label for="zip" >Postal Code/ZIP</label>
+            <i class="fa fa-envelope-open-o" aria-hidden="true"></i>&nbsp;<input type="text" id="zip" name="row-6" placeholder="Postal Code/ZIP">
+        </div>
+        <div class="row">
+            <label for="row-7">Country</label>
+            <i class="fa fa-map-o" aria-hidden="true"></i>&nbsp;<select name="row-7" id="country">
+                <option value="IN">India</option>
+                <option value="CN">China</option>
+                <option value="NP">Nepal</option>
+                <option value="SL">Sri Lanka</option>
+                <option value="MR">Myanmar</option>
+                <option value="SK">Sikkim</option>
+                <option value="BN">Bhutan</option>
+                <option value="PK">Pakistan</option>
+                <option value="MD">Maldives</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="mail" >Email</label>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;<input type="email" id="mail" name="row-8" placeholder="Email">
+        </div>
+        <div class="row">
+            <label for="phone" >Phone Number:</label>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;<input type="text" id="phone" name="row-9" placeholder="Phone Number:">
+        </div>
+    <div class="btn">
+      <button type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+   <script src="C:\Users\Sneith\Desktop\assessment-2\script.js"></script> 
+</body>
+</html>

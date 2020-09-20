@@ -1,0 +1,239 @@
+*{
+    padding: 10px;
+    border: 0;
+}
+body{
+    text-align: center;
+    /* align-items: center; */
+}
+
+.container{
+    background-color: grey;
+    position: relative;
+    display: inline-block;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20px;
+    position: absolute;
+    top: 50px;
+    left:50px */
+    margin-top: 10px;
+}
+#theform{
+    display: table;
+    padding: 15px;
+    margin: 0 auto;
+}
+.row{
+    display: table-row;
+}
+.row label{
+    display: table-cell;
+    padding: 7px;
+    text-align: left;
+    margin: 500px;
+}
+.row input{
+    display: table-cell;
+    padding: 5px;
+    align-items: flex-end;
+    margin: 2px;
+}
+.btn{
+  position: static;
+  left: 100%;
+  top:100%;
+  margin-left: 100px;
+}
+#country{
+    width: 84%;
+    margin-top: 5px;
+}
+#navbar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: honeydew;
+}
+
+#navbar1 ul{
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    float: right;
+}
+#navbar1 ul li{
+    display: inline;
+}
+
+#navbar1 ul li button{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em 1em;
+    color: blue;
+    border-radius: 5px;
+}
+
+#navbar1 ul li button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/* Page-2 styles */
+
+#container{
+    margin: 0px auto;
+    width: 80%;
+    height: auto;
+}
+.page-2{
+    background-color: honeydew;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: honeydew;
+}
+
+#navbar ul{
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    float: right;
+}
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li button{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em 1em;
+    color: blue;
+    border-radius: 5px;
+}
+
+#navbar ul li button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#box{
+    background-color: rgb(178, 219, 235);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    
+}
+h1.heading{
+    margin: 0 auto;
+}
+.h-text{
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: Nunito;
+}
+#button-2{
+    background: rgb(0, 0, 255);
+    border: 1px solid;
+    border-radius: 3px;
+    font: Arial;
+    font-weight: bold;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#button-1{
+    background: rgb(11, 150, 11);
+    border: 1px solid;
+    border-radius: 3px;
+    font: Arial;
+    font-weight: bold;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.col-2 p{
+    width: 40%;
+    text-align: left;
+
+}
+#content{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+#navbar label{
+    color: rgb(92, 89, 89);
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    line-height: normal;
+    padding: 10px;
+    margin-top: 6px;
+}
+table td{
+    text-align: left;
+    display: table-cell;
+}
+@media (max-width: 600px){
+    #navbar ul li button{
+        display: none;
+    }
+}
+
+/* Page-3 styles */
+
+.body-3{
+    margin: 5px;
+}
+.container2{
+    background-color: white;
+    width: 60%;
+    margin: 0px auto;
+    height: auto;
+    padding: 0px;
+    text-align: right;
+}
+.con{
+    width: 60%;
+}
+.con button{
+    float:right;
+    background-color: green;
+    font-size: x-small;
+    font-weight: bold;
+}
+.con button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .con{
+        width: 100%;
+    }
+}
